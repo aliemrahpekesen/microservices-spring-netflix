@@ -1,1 +1,7 @@
 /target/
+mvnw
+mvnw.cmd
+.mvn
+.settings
+.classpath
+.project
