@@ -1,0 +1,40 @@
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Register a person..</title>
+</head>
+<body>
+	<form action="#" th:action="@{/registerPerson}" method="post">
+		<table>
+			<tbody>
+			    <tr>
+					<th colspan="3" align="left">Person Registration</th>
+				</tr>
+				<tr>
+					<th align="left">Name</th>
+					<td>:</td>
+					<td><input type="text" id="txtPersonName" name="personName" /></td>
+				</tr>
+				<tr>
+					<th align="left">Surname</th>
+					<td>:</td>
+					<td><input type="text" id="txtPersonSurname"
+						name="personSurname" /></td>
+				</tr>
+				<tr>
+					<th align="left">Gender</th>
+					<td>:</td>
+					<td><select name="personGender">
+							<option value="MALE">Male</option>
+							<option value="FEMALE">Female</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td colspan="3" align="right"><input type="submit" value="Save" /></td>
+				</tr>
+			</tbody>
+		</table>
+
+	</form>
+</body>
+</html>
